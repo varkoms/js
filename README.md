@@ -1,2 +1,3 @@
 # js
-Archivos de JavaScript para pruebas
+
+### Este repositorio es utilizado para almacenar archivos y proyectos pequeños usando JS
