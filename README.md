@@ -1,3 +1,11 @@
 # js
+Hello javascript
 
-### Este repositorio es utilizado para almacenar archivos y proyectos pequeños usando JS
+### install
+Nothing to install (yet)
+
+### Usage
+Nothing to do here
+
+### License
+Este proyecto está bajo la Licencia MIT.
