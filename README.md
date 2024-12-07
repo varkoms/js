@@ -8,4 +8,4 @@ Nothing to install (yet)
 Nothing to do here
 
 ### License
-Este proyecto está bajo la Licencia MIT.
+This project is under the MIT License.
