@@ -22,7 +22,7 @@ for (let i = 1; i <= 50; i++) {
 }
 
 // 4. Dado un array de nombres, usa un bucle para imprimir cada nombre en consola
-const names = ['Varko', 'Lady Artemixa', 'Dano', 'Sebas']
+const names = ['Varko', 'Lady Artemixa', 'Dano', 'SebasDBZ']
 for (const name of names) {
     console.log(name)
 }
