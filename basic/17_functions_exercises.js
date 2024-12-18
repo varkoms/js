@@ -1,11 +1,8 @@
 // Ejercicios
 
 // 1. Crea una funcion que reciba dos numeros y devuelva su suma
-function sum(a, b) {
-    return a + b
-}
-
-console.log(sum(10, 5)) // 15
+const sumar = (a, b) => a + b
+console.log(sumar(10, 5)) // 15
 
 // 2. Crea una funcion que reciba un array de numeros y devuelva el mayor de ellos
 function encontrarMayor(arr) {
