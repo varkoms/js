@@ -77,4 +77,4 @@ console.log(varko === tatia) // false
 
 // 10. Comprueba si dos propiedades diferentes son iguales.
 
-console.log(varko.gender === tatia.gender) // false
+console.log(varko.gender === tatia.age) // false
