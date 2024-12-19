@@ -59,3 +59,55 @@ varko.greet() // Hello, my name is CMS and I am 35 years old.
 
 // Getters/Setters
 varko.bank = "1111-1111-1111-1111"
+
+// Herencia
+class Animal {
+    constructor(name) {
+        this.name = name
+    }
+
+    sound() {
+        console.log("Animal emite un sonido generico")
+    }
+}
+
+class Dog extends Animal {
+    run() {
+        console.log("El perro corre")
+    }
+
+    sound() {
+        console.log('Barf')
+
+    }
+}
+
+class Fish extends Animal {
+    constructor(name, size) {
+        super(name)
+        this.size = size
+    }
+
+    swim() {
+        console.log("El pez nada")
+    }
+}
+
+let max = new Dog("Max")
+max.run() // El perro corre
+max.sound() // Barf
+
+let fatality = new Fish("Fatality", 10)
+fatality.swim() // El pez nada
+fatality.sound() // Animal emite un sonido generico
+
+// Metodos estaticos
+class MathOperations {
+
+    static sum(a, b) {
+        return a + b
+    }
+}
+
+console.log(MathOperations.sum(10, 20)) // 30
+
