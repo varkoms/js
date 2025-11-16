@@ -65,7 +65,7 @@ const myNewSymbol = Symbol("mysymbol")
 const myBiggerBigInt = BigInt(12903891208390128390812903812903890128390128390128390123122321232123)
 
 // 9. A continuacion, modifica los valores de las constantes
-// JAJA, JOKES ON YOU. LAS CONSTANTES NO SE PUEDEN MODIFICAR
+// HAHA, JOKES ON YOU. LAS CONSTANTES NO SE PUEDEN MODIFICAR
 
 // 10. Comenta las lineas que produzcan algun tipo de error al ejecutarse
 // Ninguna linea, mi codigo es perfecto
